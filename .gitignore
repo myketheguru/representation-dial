@@ -1,0 +1,11 @@
+# representation-dial — a self-contained research project.
+# The private chess project, PRDs, data, and content strategy live in the PARENT
+# directory, outside this repo, so nothing private is tracked here by construction.
+
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+scratch*
+.DS_Store
+.ipynb_checkpoints/
