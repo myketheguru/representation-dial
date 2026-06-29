@@ -11,6 +11,10 @@ If you read one thing, read **[POSITION_NOTE.md](POSITION_NOTE.md)** — the per
 all together (and is honest about what's rediscovery, what's original, and what failed). For how this
 repo fits the larger program (three tracks), see **[PROJECTS.md](PROJECTS.md)**.
 
+> **Part of one body of curious work.** This repo is Tracks **A** (foundations) and **C** (the
+> frontier). Its companion — Track **B**, the original concept-rediscovery experiment — lives at
+> **[github.com/myketheguru/concept-rediscovery](https://github.com/myketheguru/concept-rediscovery)**.
+
 ## The tour (follow in order)
 Each folder has its own README, the artifacts, and *what each one tests*.
 

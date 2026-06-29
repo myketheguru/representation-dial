@@ -11,13 +11,14 @@ representation-independent, and the boundary is set by accessibility and causali
 → **`01_the_limit/`, `02_the_power/`, `03_the_boundary/`** · status: **complete** (reproductions of
 established results — Kohlas, Schaefer, Kolmogorov, Pearl, No-Free-Lunch — credited, not claimed).
 
-## Track B — The structural-alignment evaluator (concept-rediscovery)  · separate project
+## Track B — The structural-alignment evaluator (concept-rediscovery)  · **own repo →** [concept-rediscovery](https://github.com/myketheguru/concept-rediscovery)
 The original experiment: can the compression/systematicity objective, run on exact-label data,
 *rediscover named human concepts*? Built and tested extensively on chess endgames (exact Syzygy
 tablebase labels), including two pre-registered **null results** that redirected the question. This
-is the most differentiated work of the program — and it is being prepared as its own curated repo
-(same standard: a guided tour, what-each-experiment-tests, nulls foregrounded). *Not yet public.*
-→ status: **extensive, documented, with honest nulls; public release TBD.**
+is the most differentiated work of the program — its own curated repo (same standard: a guided tour,
+what-each-experiment-tests, nulls foregrounded).
+→ **[github.com/myketheguru/concept-rediscovery](https://github.com/myketheguru/concept-rediscovery)** ·
+status: **public; extensive, documented, with honest nulls.**
 
 ## Track C — The frontier: representation as the access/search dial  · in this repo
 The constructive turn: a representation sets *how much* of a task is cheap geometric access vs
