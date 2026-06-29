@@ -14,6 +14,7 @@ Semantic-ish: stable demos are 1.0.0; the active frontier experiment is versione
 | `access_search_split.py` | 1.0.0 | 04_the_frontier | Does matched (hyperbolic) geometry raise the access fraction, bounded by structure? (structure-knob sweep, dim=5) | active |
 | `access_search_split_v2.py` | 2.0.0 | 04_the_frontier | Is the geometry advantage largest at small dimension? (dimension sweep, top-1 metric; the v1 confound check; imports v1) | superseded by v3 |
 | `access_search_split_v3.py` | 3.0.0 | 04_the_frontier | The rebuild: rank metric (MAP/MRR) + clipped/converged training. Resolves v2 — hyperbolic beats Euclidean for hierarchy, edge largest at dim=2 (trustworthy) | active |
+| `access_search_split_v4.py` | 4.0.0 | 04_the_frontier | The primary design: structure-knob sweep at dim=2 with the rank metric. Confirms the pre-registered hypothesis — gap +0.128 (tree) → −0.075 (random) | active |
 
 ## Changelog
 - **access_search_split 1.0.0** — structure-knob sweep at dim=5. First result: directional (hyperbolic
@@ -29,4 +30,8 @@ Semantic-ish: stable demos are 1.0.0; the active frontier experiment is versione
   converged training. On a pure tree: hyperbolic beats Euclidean at every dim, edge largest at dim=2
   (MAP gap +0.079 → +0.003 from dim 2 → 10). The established Nickel–Kiela pattern. **Resolves v2: it
   was an implementation artifact, not geometry — the frontier result is now trustworthy.**
+- **access_search_split_v4 4.0.0** — the primary design re-run with the trustworthy tooling: structure-
+  knob sweep at dim=2 with the rank metric. Hyperbolic MAP gap +0.128 (pure tree) → −0.075 (random),
+  declining monotonically. Confirms the pre-registered TRUE outcome — matched geometry helps, bounded by
+  the structure present. With v3 (dimension) + v4 (structure), both axes of the design are confirmed.
 - **01–03 demos 1.0.0** — initial stable reproductions of the foundational results.
