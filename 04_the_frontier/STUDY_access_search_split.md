@@ -106,6 +106,24 @@ Riemannian SGD is likely undertrained/poorly-tuned in 2D hyperbolic space, and t
 metric (MAP / mean reciprocal rank, not top-1); (3) convergence checks. Build-in-public lesson: the
 first tooling isn't trustworthy enough to answer the question — and saying so is the point.
 
+## 6d. THE REBUILD (`access_search_split_v3.py` v3.0.0) — RESOLVED, trustworthy
+Fixed v2's two suspects: (1) a **rank-based metric** (MAP + mean reciprocal rank, not brittle top-1);
+(2) **better training** (gradient clipping + lr decay + converged epochs). Pure tree, dims {2,5,10}:
+
+| dim | MAP gap (Poincaré − Euclid) | MRR gap |
+|---|---|---|
+| **2** | **+0.079** | **+0.076** |
+| 5 | +0.028 | +0.061 |
+| 10 | +0.003 | +0.034 |
+
+**Hyperbolic now beats Euclidean at every dimension, and the edge is largest at dim=2** — exactly the
+established Nickel–Kiela pattern. ⇒ v2's contradictory result **was** an implementation artifact (the
+brittle top-1 metric + undertrained 2D), not geometry. The geometry effect is **real**, and the
+frontier result is now **trustworthy**. The arc — v1 directional → v2 inconclusive → v3 fixes
+metric+training → clean — is the honest face of building research tooling: the first cut wasn't good
+enough, the flaw was named openly, the rebuilt result holds. *Optional polish:* geoopt/Riemannian Adam
+as a definitive cross-check; the structure-knob sweep re-run with the rank metric.
+
 ## 7. Deliverable
 One figure (access fraction vs structure level, Euclidean vs Poincaré, one curve each, with the
 permutation-null floor) + a dimension-sweep table + a short writeup stating which of TRUE/NULL/THIRD

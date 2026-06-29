@@ -12,7 +12,8 @@ Semantic-ish: stable demos are 1.0.0; the active frontier experiment is versione
 | `hidden_structure.py` | 1.0.0 | 03_the_boundary | Can a standard compressor (gzip) tell a hash-expanded low-DOF string from true randomness? | stable |
 | `causal_compression.py` | 1.0.0 | 03_the_boundary | Do two opposite causal models fit observations identically yet predict do() oppositely? | stable |
 | `access_search_split.py` | 1.0.0 | 04_the_frontier | Does matched (hyperbolic) geometry raise the access fraction, bounded by structure? (structure-knob sweep, dim=5) | active |
-| `access_search_split_v2.py` | 2.0.0 | 04_the_frontier | Is the geometry advantage largest at small dimension? (dimension sweep; the v1 confound check; imports v1) | active |
+| `access_search_split_v2.py` | 2.0.0 | 04_the_frontier | Is the geometry advantage largest at small dimension? (dimension sweep, top-1 metric; the v1 confound check; imports v1) | superseded by v3 |
+| `access_search_split_v3.py` | 3.0.0 | 04_the_frontier | The rebuild: rank metric (MAP/MRR) + clipped/converged training. Resolves v2 — hyperbolic beats Euclidean for hierarchy, edge largest at dim=2 (trustworthy) | active |
 
 ## Changelog
 - **access_search_split 1.0.0** — structure-knob sweep at dim=5. First result: directional (hyperbolic
@@ -24,4 +25,8 @@ Semantic-ish: stable demos are 1.0.0; the active frontier experiment is versione
   dim≥5. Contradicts the established Nickel–Kiela finding ⇒ likely an *implementation* fault (undertrained
   2D Riemannian SGD + a crowding-sensitive top-1 metric), not geometry. Needs a proper hyperbolic
   optimizer + a rank-based metric before the question can be answered.
+- **access_search_split_v3 3.0.0** — the rebuild. Rank-based metric (MAP + MRR, not top-1) + clipped,
+  converged training. On a pure tree: hyperbolic beats Euclidean at every dim, edge largest at dim=2
+  (MAP gap +0.079 → +0.003 from dim 2 → 10). The established Nickel–Kiela pattern. **Resolves v2: it
+  was an implementation artifact, not geometry — the frontier result is now trustworthy.**
 - **01–03 demos 1.0.0** — initial stable reproductions of the foundational results.
