@@ -91,9 +91,8 @@ theory of inventing a genuinely *new* representational primitive (vs composing k
 theory frontiers; this note does not solve them — it locates them.
 
 ## 7. Method (the standard I hold)
-Exact ground truth where possible; every claim a falsifiable, runnable demo; nulls published with the
-same energy as confirmations; established results credited by name. Engineering discipline pointed at
-foundational science.
+Exact ground truth where possible; every claim a falsifiable, runnable demo; established results
+credited by name. Engineering discipline pointed at foundational science.
 
 ## Selected references (established results organized here)
 Wolpert & Macready, *No Free Lunch* (1997) · Schaefer, *Complexity of satisfiability problems* (1978) ·

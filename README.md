@@ -4,8 +4,8 @@
 A progressive tour of small, runnable, exact-ground-truth experiments — reproducing established
 results from scratch and pushing to a live frontier. **Every claim here is a script you can run.**
 
-> Engineering discipline pointed at foundational science: everything runnable, every claim a
-> falsifiable experiment, every test allowed to fail, nulls reported with the same energy as wins.
+> Engineering discipline pointed at foundational science: every claim is a small, runnable,
+> falsifiable experiment — and the code prints its own verdict.
 
 If you read one thing, read **[POSITION_NOTE.md](POSITION_NOTE.md)** — the perspective that ties it
 all together (and is honest about what's rediscovery, what's original, and what failed). For how this
