@@ -45,7 +45,7 @@ cd 04_the_frontier && python access_search_split_v2.py      # v2: dimension swee
 Artifact versions are tracked in **[VERSIONS.md](VERSIONS.md)**.
 
 ## About
-By **darkmyke** — a software engineer (10+ years) with broad scientific curiosity, doing independent
+By **Micheal Ezeoda** (`myketheguru` on GitHub, `_darkmyke` on socials) — a software engineer (10+ years) with broad scientific curiosity, doing independent
 foundational research on representation. Background reading map: **[CURRICULUM.md](CURRICULUM.md)**.
 
 ## Honest framing (the standard)

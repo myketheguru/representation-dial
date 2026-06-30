@@ -4,7 +4,7 @@
 small runnable demos, and reports a few original experiments — including null results. It claims
 no new theorems; its contribution is a clear, falsifiable, ground-truth-honest map.*
 
-**Author:** darkmyke — software engineer (10+ yrs), independent researcher.
+**Author:** Micheal Ezeoda (`myketheguru` on GitHub, `_darkmyke` on socials) — software engineer (10+ yrs), independent researcher.
 **Artifacts:** every claim below has a runnable demo in this repo (named + versioned). Run them.
 
 ---
